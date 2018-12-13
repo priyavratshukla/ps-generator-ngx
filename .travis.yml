@@ -24,7 +24,7 @@ before_script:
   - npm install gulp-cli
   
 
-script: gulp test:ci
+script: gulp serve:demo
 
 after_success: gulp coveralls
 
