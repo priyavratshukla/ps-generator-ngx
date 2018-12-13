@@ -1,0 +1,31 @@
+{
+  "name": "generator-ngx-library",
+  "version": "1.0.0",
+  "description": "Angular library built with ❤ using ngx-library yeoman generator.",
+  "keywords": [
+    "ng",
+    "angular",
+    "library"
+  ],
+  "author": {
+    "name": "priyavrat",
+    "url": "https://github.com/priyavratshukla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/priyavratshukla/generator-ngx-library.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyavratshukla/generator-ngx-library/issues"
+  },
+  "homepage": "https://github.com/priyavratshukla/generator-ngx-library",
+  "main": "./bundles/generator-ngx-library.umd.js",
+  "module": "./esm5/generator-ngx-library.es5.js",
+  "es2015": "./esm2015/generator-ngx-library.js",
+  "typings": "./generator-ngx-library.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "@angular/common": "^6.0.0"
+  }
+}
