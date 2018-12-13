@@ -20,11 +20,10 @@ deploy:
 
 before_install:
   - npm install gulp-cli
-  
+
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
-  - npm install --quiet -g gulp-cli
   
 
 script: gulp test:ci
