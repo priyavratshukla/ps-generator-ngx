@@ -13,13 +13,19 @@ language: node_js
 node_js:
   - "6"
 
-deploy.skip_cleanup: true
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: ps00552515@techmahindra.com, shukla.priyavrat@gmail.com
 
+before_install:
+  - npm install gulp-cli
+  
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - npm install --quiet -g gulp-cli
-  - npm install gulp-cli
+  
 
 script: gulp test:ci
 
