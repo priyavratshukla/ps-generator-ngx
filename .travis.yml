@@ -15,9 +15,9 @@ node_js:
 
 before_install:
 # Install the Node version to test against
-- nvm install $TEST_NODE_VERSION
+- nvm install 8.0.0
 # Switch back to build-time Node version
-- nvm use $TRAVIS_NODE_VERSION
+- nvm use 8.0.0
 
 before_script:
   - export DISPLAY=:99.0
