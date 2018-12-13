@@ -13,6 +13,12 @@ language: node_js
 node_js:
   - "6"
 
+before_install:
+# Install the Node version to test against
+- nvm install $TEST_NODE_VERSION
+# Switch back to build-time Node version
+- nvm use $TRAVIS_NODE_VERSION
+
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
