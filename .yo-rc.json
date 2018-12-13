@@ -1,0 +1,36 @@
+{
+  "generator-ngx-library": {
+    "version": "6.2.1",
+    "authorName": "priyavrat",
+    "authorEmail": "shukla.priyavrat@gmail.com",
+    "githubUsername": "priyavratshukla",
+    "githubRepoName": "generator-ngx-library",
+    "projectName": "generator-ngx-library",
+    "projectVersion": "1.0.0",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "6.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "additionalPackageFiles": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "my-lib",
+    "testingFramework": "jest",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "config/karma.conf.js",
+      "config/webpack.test.js",
+      "config/karma-test-shim.js"
+    ],
+    "deleteExclusions": []
+  }
+}
